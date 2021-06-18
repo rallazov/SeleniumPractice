@@ -60,7 +60,7 @@ public static void main(String[] args) throws InterruptedException {
     driver.findElement(By.xpath("//select[@id='example2']/../div")).click();
     List<WebElement> programs = driver.findElements(By.xpath("//select[@id='example2']/..//li"));
     programs.stream().filter(t->t.getAttribute("class").equals("active")).forEach(t->t.click());
-    //something new here again
+    //something new here again , lets edit this
 
 
 
